@@ -1,198 +1,125 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Karol Ignatowicz | Financial Modeling Portfolio</title>
-  <style>
-    body {
-      margin: 0;
-      font-family: Arial, sans-serif;
-      background: #f7f8fa;
-      color: #111827;
-      line-height: 1.6;
-    }
-
-    header {
-      background: #0f172a;
-      color: white;
-      padding: 80px 20px;
-      text-align: center;
-    }
-
-    header h1 {
-      font-size: 42px;
-      margin: 0 0 10px;
-    }
-
-    header p {
-      font-size: 19px;
-      max-width: 720px;
-      margin: 0 auto 25px;
-      color: #cbd5e1;
-    }
-
-    .button {
-      display: inline-block;
-      padding: 12px 20px;
-      background: white;
-      color: #0f172a;
-      text-decoration: none;
-      border-radius: 8px;
-      font-weight: bold;
-      margin: 5px;
-    }
-
-    section {
-      max-width: 1000px;
-      margin: 0 auto;
-      padding: 60px 20px;
-    }
-
-    h2 {
-      font-size: 30px;
-      margin-bottom: 20px;
-    }
-
-    .projects {
-      display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-      gap: 24px;
-    }
-
-    .card {
-      background: white;
-      border-radius: 14px;
-      padding: 24px;
-      box-shadow: 0 8px 24px rgba(15, 23, 42, 0.08);
-      border: 1px solid #e5e7eb;
-    }
-
-    .card h3 {
-      margin-top: 0;
-      color: #0f172a;
-    }
-
-    .tag {
-      display: inline-block;
-      background: #e0f2fe;
-      color: #075985;
-      padding: 5px 10px;
-      border-radius: 999px;
-      font-size: 13px;
-      margin-bottom: 10px;
-    }
-
-    ul {
-      padding-left: 20px;
-    }
-
-    footer {
-      text-align: center;
-      padding: 35px 20px;
-      color: #64748b;
-      background: white;
-      border-top: 1px solid #e5e7eb;
-    }
-
-    a {
-      color: #2563eb;
-    }
-  </style>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Karol Ignatowicz — financial modeling, valuation and market analytics portfolio.">
+  <meta name="theme-color" content="#f4f1e9">
+  <title>Karol Ignatowicz — Financial Analysis</title>
+  <link rel="icon" href="assets/monogram.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-
-  <header>
-    <h1>Karol Ignatowicz</h1>
-    <p>
-      Finance-focused portfolio covering financial modeling, valuation,
-      public company analysis and equity research-style case studies.
-    </p>
-    <a class="button" href="#projects">View Projects</a>
-    <a class="button" href="#contact">Contact</a>
-  </header>
-
-  <section id="projects">
-    <h2>Projects</h2>
-
-    <div class="projects">
-      <div class="card">
-        <span class="tag">Financial Modeling</span>
-        <h3>Auto Partner S.A. — 3-Statement Model</h3>
-        <p>
-          Built a linked 3-statement financial model based on public company
-          filings, including historical financials, operating assumptions,
-          balance sheet schedules and cash flow statement.
-        </p>
-        <ul>
-          <li>Income statement, balance sheet and cash flow model</li>
-          <li>Historical data review and consistency checks</li>
-          <li>Revenue, margin, working capital and capex assumptions</li>
-        </ul>
+<a class="skip-link" href="#main">Skip to content</a>
+<header class="site-header">
+  <div class="container nav">
+    <a class="brand" href="index.html" aria-label="Karol Ignatowicz home"><span class="brand-mark">KI</span><span>Karol Ignatowicz</span></a>
+    <button class="menu-button" type="button" aria-expanded="false" aria-controls="site-nav">Menu</button>
+    <nav class="nav-links" id="site-nav" aria-label="Primary navigation">
+      <a aria-current="page" href="index.html">Home</a>
+      <a href="portfolio.html">Portfolio</a>
+      <a href="#about">About</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </div>
+</header>
+<main id="main">
+  <section class="hero">
+    <div class="container">
+      <div class="hero-grid">
+        <div>
+          <p class="eyebrow">Junior Financial Analyst</p>
+          <h1>Financial modeling with a clear investment narrative.</h1>
+          <p class="lead">I build structured financial models and market analytics projects focused on forecasting, valuation and decision-useful communication.</p>
+          <div class="hero-actions">
+            <a class="button primary" href="portfolio.html">View portfolio <span aria-hidden="true">↗</span></a>
+            <a class="button secondary" href="#contact">Get in touch</a>
+          </div>
+        </div>
+        <aside class="hero-note">
+          <strong>Current focus</strong>
+          <p>Equity research, three-statement modeling, DCF, comparable valuation and Excel-based market analytics.</p>
+        </aside>
       </div>
-
-      <div class="card">
-        <span class="tag">Valuation</span>
-        <h3>DCF Valuation</h3>
-        <p>
-          Prepared a discounted cash flow valuation framework using explicit
-          forecast assumptions, WACC, terminal value and sensitivity analysis.
-        </p>
-        <ul>
-          <li>Free cash flow forecast</li>
-          <li>WACC and terminal growth assumptions</li>
-          <li>Implied equity value and share price analysis</li>
-        </ul>
-      </div>
-
-      <div class="card">
-        <span class="tag">Equity Research</span>
-        <h3>Comparable Companies Analysis</h3>
-        <p>
-          Compared valuation multiples and operating metrics across selected
-          public companies to assess relative valuation.
-        </p>
-        <ul>
-          <li>EV/Sales, EV/EBITDA and P/E multiples</li>
-          <li>Revenue growth and margin comparison</li>
-          <li>Relative valuation summary</li>
-        </ul>
+      <div class="metrics" aria-label="Portfolio summary">
+        <div class="metric"><span class="metric-value">2</span><span class="metric-label">Featured projects</span></div>
+        <div class="metric"><span class="metric-value">2026–30</span><span class="metric-label">Forecast horizon</span></div>
+        <div class="metric"><span class="metric-value">3</span><span class="metric-label">Valuation methods</span></div>
       </div>
     </div>
   </section>
 
-  <section>
-    <h2>Skills</h2>
-    <div class="card">
-      <p>
-        Financial statement analysis, 3-statement modeling, DCF valuation,
-        comparable companies analysis, Excel, PowerPoint and public company research.
-      </p>
+  <section class="section" id="projects">
+    <div class="container">
+      <div class="section-head">
+        <div><p class="eyebrow">Selected work</p><h2>Projects</h2></div>
+        <p>Two practical projects showing company analysis, integrated modeling, valuation, Power Query and financial data presentation.</p>
+      </div>
+      <div class="project-list">
+        <a class="project-row" href="auto-partner.html">
+          <div class="project-index">01</div>
+          <div>
+            <h3>Auto Partner S.A.</h3>
+            <p>Integrated three-statement model, five-year operating forecast, DCF, comparable company valuation and automated model checks.</p>
+            <div class="tags"><span class="tag">3-Statement Model</span><span class="tag">DCF</span><span class="tag">Comps</span><span class="tag">Excel</span></div>
+          </div>
+          <div class="project-data">
+            <div class="data-line"><span>Current price</span><strong>PLN 24.90</strong></div>
+            <div class="data-line"><span>DCF value</span><strong>PLN 27.37</strong></div>
+            <div class="data-line"><span>View</span><strong>Neutral / Watchlist</strong></div>
+          </div>
+          <span class="arrow" aria-hidden="true">↗</span>
+        </a>
+        <a class="project-row" href="market-dashboard.html">
+          <div class="project-index">02</div>
+          <div>
+            <h3>Poland Market Dashboard</h3>
+            <p>Static Excel dashboard covering Polish equity indices, FX and gold, with returns, annualised volatility and drawdown analytics.</p>
+            <div class="tags"><span class="tag">Power Query</span><span class="tag">Market Data</span><span class="tag">Dashboard</span><span class="tag">Excel</span></div>
+          </div>
+          <div class="project-data">
+            <div class="data-line"><span>Coverage</span><strong>6 instruments</strong></div>
+            <div class="data-line"><span>Metrics</span><strong>Returns · Vol · DD</strong></div>
+            <div class="data-line"><span>Snapshot</span><strong>02 Jun 2026</strong></div>
+          </div>
+          <span class="arrow" aria-hidden="true">↗</span>
+        </a>
+      </div>
     </div>
   </section>
 
-  <section>
-    <h2>About</h2>
-    <div class="card">
-      <p>
-        I am interested in financial modeling, valuation and public equity analysis.
-        This portfolio presents selected projects based on public company data and
-        investment-style case studies.
-      </p>
+  <section class="section" id="about">
+    <div class="container about-grid">
+      <div><p class="eyebrow">About</p><h2>Analysis before decoration.</h2></div>
+      <div>
+        <div class="about-copy"><p>I turn financial statements and market data into structured models, clear conclusions and work that can be audited.</p></div>
+        <p class="about-small">My current portfolio is focused on the core skills expected from a junior financial analyst: accounting links, operating forecasts, valuation, sensitivity analysis, data cleaning and concise presentation. Each project includes documented assumptions and a clear audit trail.</p>
+      </div>
+    </div>
+    <div class="container skill-grid" aria-label="Skills">
+      <div class="skill"><strong>Financial Modeling</strong><span>Integrated statements, schedules, checks and scenario analysis.</span></div>
+      <div class="skill"><strong>Valuation</strong><span>DCF, WACC, terminal value, trading multiples and sensitivity tables.</span></div>
+      <div class="skill"><strong>Excel & Power Query</strong><span>Data transformation, repeatable workflows and dashboard design.</span></div>
+      <div class="skill"><strong>Communication</strong><span>Investment thesis, risks, methodology and decision-oriented outputs.</span></div>
     </div>
   </section>
 
-  <section id="contact">
-    <h2>Contact</h2>
-    <div class="card">
-      <p>Email: <a href="mailto:your.email@example.com">your.email@example.com</a></p>
-      <p>LinkedIn: <a href="#">Add your LinkedIn link here</a></p>
-    </div>
+  <section class="section">
+    <div class="container"><blockquote class="quote">“A model is useful when another person can follow the logic, challenge the assumptions and understand the conclusion.”</blockquote></div>
   </section>
 
-  <footer>
-    © 2026 Karol Ignatowicz. Portfolio website.
-  </footer>
-
+  <section class="section" id="contact">
+    <div class="container contact">
+      <div><p class="eyebrow">Contact</p><h2>Open to junior analyst opportunities.</h2></div>
+      <div class="contact-links">
+        <a class="contact-link" href="mailto:kontakt@karolignatowicz.pl"><span>Email</span><span>↗</span></a>
+        <a class="contact-link" href="https://github.com/IgnatowiczKarol" target="_blank" rel="noreferrer"><span>GitHub</span><span>↗</span></a>
+        <a class="contact-link" href="https://www.linkedin.com/in/your-profile" target="_blank" rel="noreferrer"><span>LinkedIn</span><span>↗</span></a>
+      </div>
+    </div>
+  </section>
+</main>
+<footer class="site-footer"><div class="container footer-row"><span>© <span data-year></span> Karol Ignatowicz</span><span>Financial modeling · Valuation · Market analytics</span></div></footer>
+<script src="script.js"></script>
 </body>
 </html>
