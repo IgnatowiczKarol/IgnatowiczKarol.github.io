@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 720" role="img" aria-labelledby="title desc">
+  <title id="title">Poland Market Dashboard preview</title>
+  <desc id="desc">Stylised financial dashboard with index cards and market charts.</desc>
+  <rect width="1200" height="720" fill="#f4f1e9"/>
+  <rect x="38" y="38" width="1124" height="644" rx="18" fill="#ffffff" stroke="#d9d5cb"/>
+  <text x="78" y="92" font-family="Arial, sans-serif" font-size="27" font-weight="700" fill="#172034">POLAND MARKET DASHBOARD</text>
+  <text x="78" y="124" font-family="Arial, sans-serif" font-size="15" fill="#6b7180">Equities · FX · Gold · Volatility · Drawdown</text>
+  <g font-family="Arial, sans-serif">
+    <g transform="translate(78 158)">
+      <rect width="238" height="112" rx="10" fill="#172034"/>
+      <text x="20" y="31" fill="#c8ceda" font-size="13">WIG20</text>
+      <text x="20" y="69" fill="#fff" font-size="29" font-weight="700">2,734</text>
+      <text x="169" y="69" fill="#9dd0b2" font-size="16">+1.8%</text>
+      <path d="M20 88 C55 77, 83 92, 115 72 S177 80, 218 57" fill="none" stroke="#e07a4e" stroke-width="4"/>
+    </g>
+    <g transform="translate(336 158)">
+      <rect width="238" height="112" rx="10" fill="#f2efe8" stroke="#d9d5cb"/>
+      <text x="20" y="31" fill="#6b7180" font-size="13">mWIG40</text>
+      <text x="20" y="69" fill="#172034" font-size="29" font-weight="700">7,461</text>
+      <text x="169" y="69" fill="#377f59" font-size="16">+0.9%</text>
+      <path d="M20 88 C52 83, 80 72, 111 77 S175 59, 218 65" fill="none" stroke="#1f6377" stroke-width="4"/>
+    </g>
+    <g transform="translate(594 158)">
+      <rect width="238" height="112" rx="10" fill="#f2efe8" stroke="#d9d5cb"/>
+      <text x="20" y="31" fill="#6b7180" font-size="13">USD / PLN</text>
+      <text x="20" y="69" fill="#172034" font-size="29" font-weight="700">3.84</text>
+      <text x="169" y="69" fill="#a54d42" font-size="16">−0.4%</text>
+      <path d="M20 61 C54 65, 87 52, 120 66 S184 82, 218 75" fill="none" stroke="#b85d42" stroke-width="4"/>
+    </g>
+    <g transform="translate(852 158)">
+      <rect width="238" height="112" rx="10" fill="#f2efe8" stroke="#d9d5cb"/>
+      <text x="20" y="31" fill="#6b7180" font-size="13">GOLD / PLN</text>
+      <text x="20" y="69" fill="#172034" font-size="29" font-weight="700">9,780</text>
+      <text x="169" y="69" fill="#377f59" font-size="16">+2.1%</text>
+      <path d="M20 91 C58 88, 90 68, 120 73 S179 47, 218 54" fill="none" stroke="#c99636" stroke-width="4"/>
+    </g>
+  </g>
+  <g transform="translate(78 302)">
+    <rect width="648" height="324" rx="12" fill="#faf9f6" stroke="#d9d5cb"/>
+    <text x="24" y="38" font-family="Arial, sans-serif" font-size="16" font-weight="700" fill="#172034">Relative performance</text>
+    <g stroke="#e2ded5" stroke-width="1">
+      <line x1="56" y1="82" x2="620" y2="82"/><line x1="56" y1="139" x2="620" y2="139"/><line x1="56" y1="196" x2="620" y2="196"/><line x1="56" y1="253" x2="620" y2="253"/>
+    </g>
+    <path d="M56 241 C102 223, 143 230, 184 192 S264 178, 307 159 S389 137, 429 115 S510 128, 620 70" fill="none" stroke="#172034" stroke-width="5"/>
+    <path d="M56 254 C99 248, 142 222, 185 227 S269 198, 310 205 S393 184, 435 171 S519 183, 620 147" fill="none" stroke="#e07a4e" stroke-width="4"/>
+    <path d="M56 232 C99 242, 145 218, 185 217 S267 231, 310 199 S392 210, 438 193 S523 221, 620 184" fill="none" stroke="#1f6377" stroke-width="4"/>
+    <text x="56" y="292" font-family="Arial" font-size="12" fill="#6b7180">Mar</text><text x="330" y="292" font-family="Arial" font-size="12" fill="#6b7180">Apr</text><text x="596" y="292" font-family="Arial" font-size="12" fill="#6b7180">Jun</text>
+  </g>
+  <g transform="translate(752 302)" font-family="Arial, sans-serif">
+    <rect width="338" height="148" rx="12" fill="#faf9f6" stroke="#d9d5cb"/>
+    <text x="22" y="35" font-size="16" font-weight="700" fill="#172034">20-day volatility</text>
+    <rect x="22" y="62" width="220" height="13" rx="6" fill="#e6e2d8"/><rect x="22" y="62" width="142" height="13" rx="6" fill="#172034"/>
+    <rect x="22" y="91" width="220" height="13" rx="6" fill="#e6e2d8"/><rect x="22" y="91" width="103" height="13" rx="6" fill="#e07a4e"/>
+    <text x="260" y="73" font-size="13" fill="#6b7180">18.4%</text><text x="260" y="102" font-size="13" fill="#6b7180">13.2%</text>
+    <rect y="174" width="338" height="150" rx="12" fill="#172034"/>
+    <text x="22" y="208" font-size="16" font-weight="700" fill="#fff">Market note</text>
+    <text x="22" y="239" font-size="13" fill="#c8ceda">Large caps led the move while PLN</text>
+    <text x="22" y="260" font-size="13" fill="#c8ceda">strength moderated gold returns.</text>
+    <text x="22" y="290" font-size="13" fill="#e8a07f">Static snapshot · 02 Jun 2026</text>
+  </g>
+</svg>
