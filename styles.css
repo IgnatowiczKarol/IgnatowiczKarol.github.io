@@ -24,7 +24,14 @@ button, a { -webkit-tap-highlight-color: transparent; }
 .site-header { position: sticky; top: 0; z-index: 30; background: rgba(244,241,233,.92); backdrop-filter: blur(12px); border-bottom: 1px solid rgba(217,213,203,.8); }
 .nav { min-height: 76px; display: flex; align-items: center; justify-content: space-between; gap: 24px; }
 .brand { display: inline-flex; align-items: center; gap: 12px; font-weight: 750; letter-spacing: -.02em; }
-.brand-mark { display: grid; place-items: center; width: 34px; height: 34px; border-radius: 8px; background: var(--ink); color: var(--paper); font-family: var(--serif); font-weight: 700; }
+.brand-logo {
+  display: block;
+  width: 42px;
+  height: 42px;
+  flex: 0 0 42px;
+  object-fit: cover;
+  border-radius: 10px;
+}
 .nav-links { display: flex; align-items: center; gap: 28px; color: var(--ink-soft); font-size: 14px; }
 .nav-links a { position: relative; padding: 7px 0; }
 .nav-links a::after { content: ''; position: absolute; left: 0; bottom: 0; width: 100%; height: 1px; background: var(--ink); transform: scaleX(0); transform-origin: left; transition: transform .2s ease; }
