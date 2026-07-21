@@ -136,7 +136,7 @@ letter-spacing: 0.02em;
 .visual-frame { overflow: hidden; background: #fff; border: 1px solid var(--line); border-radius: 16px; box-shadow: 0 24px 70px rgba(23,32,52,.08); }
 .visual-frame img { width: 100%; }
 .visual-caption { padding: 12px 16px; border-top: 1px solid var(--line); color: var(--ink-soft); font-size: 12px; }
-.gallery { display: grid; grid-template-columns: 1fr 1fr; gap: 22px; margin-top: 30px; }
+.gallery { display: grid; grid-template-columns: 1fr 1fr; gap: 22px; margin-top: 30px; align-items: start; }
 .result-strip { display: grid; grid-template-columns: repeat(3,1fr); gap: 1px; background: var(--line); border: 1px solid var(--line); margin-top: 30px; }
 .result { padding: 26px; background: var(--surface); }
 .result strong {
