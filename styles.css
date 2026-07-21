@@ -114,6 +114,7 @@ letter-spacing: 0.02em;
   display: flex;
   justify-content: center;
   text-align: center;
+  gap: 16px;
 }
 .page-hero { padding: 92px 0 60px; border-bottom: 1px solid var(--line); }
 .page-hero h1 { max-width: 980px; font-size: clamp(54px, 8vw, 94px); }
