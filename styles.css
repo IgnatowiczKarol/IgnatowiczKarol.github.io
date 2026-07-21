@@ -139,7 +139,12 @@ letter-spacing: 0.02em;
 .gallery { display: grid; grid-template-columns: 1fr 1fr; gap: 22px; margin-top: 30px; }
 .result-strip { display: grid; grid-template-columns: repeat(3,1fr); gap: 1px; background: var(--line); border: 1px solid var(--line); margin-top: 30px; }
 .result { padding: 26px; background: var(--surface); }
-.result strong { display: block; font-family: var(--serif); font-size: 34px; }
+.result strong {
+  display: block;
+  font-family: var(--serif);
+  font-size: 34px;
+  white-space: nowrap;
+}
 .result span { color: var(--ink-soft); font-size: 13px; }
 .notice { padding: 18px 20px; border-left: 3px solid var(--accent); background: rgba(184,93,66,.07); color: var(--ink-soft); }
 @media (max-width: 900px) {
