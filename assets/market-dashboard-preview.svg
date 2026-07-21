@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 720" role="img" aria-labelledby="title desc">
   <title id="title">Poland Market Dashboard preview</title>
-  <desc id="desc">Stylised financial dashboard with index cards and market charts.</desc>
+  <desc id="desc">Polish market snapshot as of 2 June 2026, based on the data and calculations in the accompanying Excel workbook.</desc>
   <rect width="1200" height="720" fill="#f4f1e9"/>
   <rect x="38" y="38" width="1124" height="644" rx="18" fill="#ffffff" stroke="#d9d5cb"/>
   <text x="78" y="92" font-family="Arial, sans-serif" font-size="27" font-weight="700" fill="#172034">POLAND MARKET DASHBOARD</text>
@@ -9,53 +9,65 @@
     <g transform="translate(78 158)">
       <rect width="238" height="112" rx="10" fill="#172034"/>
       <text x="20" y="31" fill="#c8ceda" font-size="13">WIG20</text>
-      <text x="20" y="69" fill="#fff" font-size="29" font-weight="700">2,734</text>
-      <text x="169" y="69" fill="#9dd0b2" font-size="16">+1.8%</text>
-      <path d="M20 88 C55 77, 83 92, 115 72 S177 80, 218 57" fill="none" stroke="#e07a4e" stroke-width="4"/>
+      <text x="20" y="69" fill="#fff" font-size="26" font-weight="700">3,668.51</text>
+      <text x="169" y="69" fill="#9dd0b2" font-size="16">+1.03%</text>
+      <polyline points="20.0,90.5 30.4,94.0 40.8,99.4 51.3,94.6 61.7,101.0 72.1,94.0 82.5,90.3 92.9,98.5 103.4,92.4 113.8,97.8 124.2,92.3 134.6,94.3 145.1,89.4 155.5,82.0 165.9,85.6 176.3,86.5 186.7,86.7 197.2,85.1 207.6,90.4 218.0,86.8" fill="none" stroke="#e07a4e" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
     </g>
     <g transform="translate(336 158)">
       <rect width="238" height="112" rx="10" fill="#f2efe8" stroke="#d9d5cb"/>
       <text x="20" y="31" fill="#6b7180" font-size="13">mWIG40</text>
-      <text x="20" y="69" fill="#172034" font-size="29" font-weight="700">7,461</text>
-      <text x="169" y="69" fill="#377f59" font-size="16">+0.9%</text>
-      <path d="M20 88 C52 83, 80 72, 111 77 S175 59, 218 65" fill="none" stroke="#1f6377" stroke-width="4"/>
+      <text x="20" y="69" fill="#172034" font-size="26" font-weight="700">9,530.78</text>
+      <text x="169" y="69" fill="#377f59" font-size="16">+0.71%</text>
+      <polyline points="20.0,94.1 30.4,94.6 40.8,100.0 51.3,97.9 61.7,101.0 72.1,100.4 82.5,96.5 92.9,97.8 103.4,95.5 113.8,96.1 124.2,92.7 134.6,90.9 145.1,87.5 155.5,82.0 165.9,83.6 176.3,86.3 186.7,84.7 197.2,83.1 207.6,88.0 218.0,86.0" fill="none" stroke="#1f6377" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
     </g>
     <g transform="translate(594 158)">
       <rect width="238" height="112" rx="10" fill="#f2efe8" stroke="#d9d5cb"/>
       <text x="20" y="31" fill="#6b7180" font-size="13">USD / PLN</text>
-      <text x="20" y="69" fill="#172034" font-size="29" font-weight="700">3.84</text>
-      <text x="169" y="69" fill="#a54d42" font-size="16">−0.4%</text>
-      <path d="M20 61 C54 65, 87 52, 120 66 S184 82, 218 75" fill="none" stroke="#b85d42" stroke-width="4"/>
+      <text x="20" y="69" fill="#172034" font-size="26" font-weight="700">3.6358</text>
+      <text x="169" y="69" fill="#377f59" font-size="16">+0.11%</text>
+      <polyline points="20.0,99.0 30.4,101.0 40.8,100.4 51.3,98.9 61.7,95.1 72.1,91.0 82.5,94.2 92.9,86.4 103.4,88.2 113.8,87.8 124.2,82.0 134.6,86.3 145.1,85.3 155.5,90.1 165.9,89.6 176.3,89.4 186.7,87.9 197.2,89.6 207.6,91.4 218.0,90.5" fill="none" stroke="#b85d42" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
     </g>
     <g transform="translate(852 158)">
       <rect width="238" height="112" rx="10" fill="#f2efe8" stroke="#d9d5cb"/>
-      <text x="20" y="31" fill="#6b7180" font-size="13">GOLD / PLN</text>
-      <text x="20" y="69" fill="#172034" font-size="29" font-weight="700">9,780</text>
-      <text x="169" y="69" fill="#377f59" font-size="16">+2.1%</text>
-      <path d="M20 91 C58 88, 90 68, 120 73 S179 47, 218 54" fill="none" stroke="#c99636" stroke-width="4"/>
+      <text x="20" y="31" fill="#6b7180" font-size="13">Gold (PLN/g)</text>
+      <text x="20" y="69" fill="#172034" font-size="26" font-weight="700">525.10</text>
+      <text x="169" y="69" fill="#a54d42" font-size="16">−0.59%</text>
+      <polyline points="20.0,90.5 30.4,84.7 40.8,83.5 51.3,84.2 61.7,86.8 72.1,83.2 82.5,82.0 92.9,83.5 103.4,89.8 113.8,90.7 124.2,91.0 134.6,92.9 145.1,91.2 155.5,91.5 165.9,90.9 176.3,92.8 186.7,94.4 197.2,101.0 207.6,93.4 218.0,95.0" fill="none" stroke="#c99636" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
     </g>
   </g>
   <g transform="translate(78 302)">
     <rect width="648" height="324" rx="12" fill="#faf9f6" stroke="#d9d5cb"/>
-    <text x="24" y="38" font-family="Arial, sans-serif" font-size="16" font-weight="700" fill="#172034">Relative performance</text>
-    <g stroke="#e2ded5" stroke-width="1">
-      <line x1="56" y1="82" x2="620" y2="82"/><line x1="56" y1="139" x2="620" y2="139"/><line x1="56" y1="196" x2="620" y2="196"/><line x1="56" y1="253" x2="620" y2="253"/>
+    <text x="24" y="34" font-family="Arial, sans-serif" font-size="16" font-weight="700" fill="#172034">Relative performance</text>
+    <text x="24" y="54" font-family="Arial, sans-serif" font-size="11" fill="#6b7180">Since 06 Mar 2026 · cumulative return</text>
+    <g font-family="Arial, sans-serif" font-size="11" fill="#6b7180">
+      <line x1="370" y1="34" x2="388" y2="34" stroke="#172034" stroke-width="4"/><text x="394" y="38">WIG20</text>
+      <line x1="451" y1="34" x2="469" y2="34" stroke="#e07a4e" stroke-width="4"/><text x="475" y="38">mWIG40</text>
+      <line x1="550" y1="34" x2="568" y2="34" stroke="#1f6377" stroke-width="4"/><text x="574" y="38">sWIG80</text>
     </g>
-    <path d="M56 241 C102 223, 143 230, 184 192 S264 178, 307 159 S389 137, 429 115 S510 128, 620 70" fill="none" stroke="#172034" stroke-width="5"/>
-    <path d="M56 254 C99 248, 142 222, 185 227 S269 198, 310 205 S393 184, 435 171 S519 183, 620 147" fill="none" stroke="#e07a4e" stroke-width="4"/>
-    <path d="M56 232 C99 242, 145 218, 185 217 S267 231, 310 199 S392 210, 438 193 S523 221, 620 184" fill="none" stroke="#1f6377" stroke-width="4"/>
-    <text x="56" y="292" font-family="Arial" font-size="12" fill="#6b7180">Mar</text><text x="330" y="292" font-family="Arial" font-size="12" fill="#6b7180">Apr</text><text x="596" y="292" font-family="Arial" font-size="12" fill="#6b7180">Jun</text>
+    <g stroke="#e2ded5" stroke-width="1">
+      <line x1="56" y1="70" x2="620" y2="70"/><line x1="56" y1="113.3" x2="620" y2="113.3"/><line x1="56" y1="156.7" x2="620" y2="156.7"/><line x1="56" y1="200" x2="620" y2="200"/><line x1="56" y1="243.3" x2="620" y2="243.3"/>
+    </g>
+    <g font-family="Arial, sans-serif" font-size="11" fill="#6b7180" text-anchor="end">
+      <text x="49" y="74">15%</text><text x="49" y="117.3">10%</text><text x="49" y="160.7">5%</text><text x="49" y="204">0%</text><text x="49" y="247.3">−5%</text>
+    </g>
+    <polyline points="56.0,200.0 75.2,201.5 81.6,182.7 88.0,186.6 94.5,192.3 100.9,196.8 120.1,192.0 126.5,174.1 132.9,179.8 139.3,196.2 145.7,203.8 165.0,198.5 171.4,205.6 177.8,186.7 184.2,188.2 190.6,198.3 209.8,194.5 216.2,179.2 222.6,162.7 229.0,154.5 261.1,159.0 267.5,127.8 273.9,122.9 280.3,111.1 299.5,111.3 306.0,100.5 312.4,92.8 318.8,97.1 325.2,83.6 344.4,92.5 350.8,99.7 357.2,106.1 363.6,115.9 370.0,121.7 389.3,129.2 395.7,136.3 402.1,135.9 408.5,140.1 434.1,139.0 440.5,129.0 447.0,102.4 453.4,112.2 459.8,127.3 479.0,113.9 485.4,131.9 491.8,112.3 498.2,101.9 504.6,124.8 523.9,107.6 530.3,122.9 536.7,107.5 543.1,113.0 549.5,99.4 568.7,78.5 575.1,88.5 581.5,91.3 588.0,91.6 594.4,87.2 613.6,102.0 620.0,92.1" fill="none" stroke="#172034" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+    <polyline points="56.0,200.0 75.2,204.2 81.6,193.6 88.0,204.5 94.5,216.1 100.9,215.8 120.1,215.7 126.5,189.1 132.9,197.9 139.3,209.9 145.7,227.4 165.0,222.3 171.4,232.8 177.8,222.2 184.2,224.7 190.6,228.0 209.8,223.2 216.2,205.0 222.6,193.5 229.0,186.2 261.1,188.2 267.5,159.1 273.9,161.4 280.3,147.1 299.5,147.6 306.0,136.0 312.4,126.7 318.8,132.7 325.2,119.5 344.4,126.3 350.8,137.8 357.2,137.1 363.6,147.4 370.0,151.6 389.3,155.3 395.7,159.0 402.1,154.8 408.5,156.9 434.1,146.9 440.5,140.3 447.0,124.1 453.4,125.9 459.8,143.8 479.0,137.0 485.4,147.3 491.8,145.3 498.2,132.1 504.6,136.6 523.9,128.8 530.3,131.0 536.7,119.2 543.1,113.4 549.5,101.9 568.7,83.4 575.1,88.9 581.5,97.7 588.0,92.5 594.4,87.2 613.6,103.6 620.0,96.8" fill="none" stroke="#e07a4e" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"/>
+    <polyline points="56.0,200.0 75.2,207.7 81.6,199.2 88.0,201.5 94.5,208.7 100.9,211.9 120.1,212.0 126.5,204.9 132.9,209.7 139.3,223.3 145.7,228.8 165.0,239.9 171.4,242.9 177.8,232.3 184.2,236.4 190.6,245.3 209.8,246.4 216.2,229.5 222.6,221.2 229.0,222.0 261.1,225.7 267.5,213.1 273.9,214.3 280.3,212.2 299.5,207.5 306.0,201.3 312.4,195.1 318.8,197.1 325.2,185.1 344.4,184.6 350.8,182.0 357.2,182.1 363.6,184.1 370.0,188.0 389.3,188.4 395.7,194.2 402.1,193.9 408.5,198.8 434.1,198.7 440.5,198.3 447.0,184.7 453.4,189.7 459.8,192.9 479.0,189.6 485.4,198.2 491.8,195.0 498.2,193.2 504.6,195.8 523.9,195.9 530.3,195.6 536.7,187.7 543.1,183.4 549.5,172.3 568.7,165.0 575.1,164.7 581.5,174.8 588.0,169.3 594.4,157.3 613.6,151.3 620.0,154.0" fill="none" stroke="#1f6377" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"/>
+    <g font-family="Arial, sans-serif" font-size="11" fill="#6b7180">
+      <text x="56" y="292">06 Mar</text><text x="222.6" y="292" text-anchor="middle">01 Apr</text><text x="434.1" y="292" text-anchor="middle">04 May</text><text x="620" y="292" text-anchor="end">02 Jun</text>
+    </g>
   </g>
   <g transform="translate(752 302)" font-family="Arial, sans-serif">
     <rect width="338" height="148" rx="12" fill="#faf9f6" stroke="#d9d5cb"/>
-    <text x="22" y="35" font-size="16" font-weight="700" fill="#172034">20-day volatility</text>
-    <rect x="22" y="62" width="220" height="13" rx="6" fill="#e6e2d8"/><rect x="22" y="62" width="142" height="13" rx="6" fill="#172034"/>
-    <rect x="22" y="91" width="220" height="13" rx="6" fill="#e6e2d8"/><rect x="22" y="91" width="103" height="13" rx="6" fill="#e07a4e"/>
-    <text x="260" y="73" font-size="13" fill="#6b7180">18.4%</text><text x="260" y="102" font-size="13" fill="#6b7180">13.2%</text>
+    <text x="22" y="31" font-size="15" font-weight="700" fill="#172034">20-day annualized volatility</text>
+    <text x="22" y="68" font-size="12" fill="#6b7180">WIG20</text><rect x="86" y="57" width="160" height="12" rx="6" fill="#e6e2d8"/><rect x="86" y="57" width="134.2" height="12" rx="6" fill="#172034"/>
+    <text x="22" y="103" font-size="12" fill="#6b7180">mWIG40</text><rect x="86" y="92" width="160" height="12" rx="6" fill="#e6e2d8"/><rect x="86" y="92" width="92.4" height="12" rx="6" fill="#e07a4e"/>
+    <text x="260" y="68" font-size="13" fill="#6b7180">25.16%</text><text x="260" y="103" font-size="13" fill="#6b7180">17.32%</text>
     <rect y="174" width="338" height="150" rx="12" fill="#172034"/>
     <text x="22" y="208" font-size="16" font-weight="700" fill="#fff">Market note</text>
-    <text x="22" y="239" font-size="13" fill="#c8ceda">Large caps led the move while PLN</text>
-    <text x="22" y="260" font-size="13" fill="#c8ceda">strength moderated gold returns.</text>
-    <text x="22" y="290" font-size="13" fill="#e8a07f">Static snapshot · 02 Jun 2026</text>
+    <text x="22" y="238" font-size="13" fill="#c8ceda">Large caps led the period, while PLN</text>
+    <text x="22" y="259" font-size="13" fill="#c8ceda">strengthened and gold in PLN declined.</text>
+    <text x="22" y="282" font-size="13" fill="#c8ceda">WIG20 +12.45% · Gold −13.92%</text>
+    <text x="22" y="306" font-size="13" fill="#e8a07f">Static snapshot · 02 Jun 2026</text>
   </g>
 </svg>
